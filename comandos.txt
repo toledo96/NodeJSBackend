@@ -1,0 +1,7 @@
+https://bluuweb.github.io/desarrollo-web-bluuweb/21-03-api-rest/
+
+npm init -y
+vamos a trabajar con sistema de modulos: "type": "module" en package
+
+npm i bcryptjs cookie-parser cors dotenv express express-validator jsonwebtoken mongoose
+npm i -D nodemon
