@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 
 //Routes in routes
-app.use('/api/v1',authRouter);
+app.use('/api/v1/auth',authRouter);
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => console.log("hola"))
